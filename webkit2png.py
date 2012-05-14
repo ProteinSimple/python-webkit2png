@@ -426,7 +426,10 @@ if __name__ == '__main__':
         parser.error("options -x and -d are mutually exclusive")
     options.url = args[0]
 
-    logging.basicConfig(filename=options.logfile,level=logging.WARN,)
+    log_format='%(asctime)-2s %(levelname)-2s %(name)s  %(message)s'
+    logging.basicConfig(filename=options.logfile,
+                        level=logging.WARN,
+                        format=log_format)
 
     # Enable output of debugging information
     if options.debug:
