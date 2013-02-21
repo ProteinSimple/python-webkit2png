@@ -1,1 +1,2 @@
 export PYTHONPATH=$PWD:$PYTHONPATH
+export PATH=$PWD:$PATH
