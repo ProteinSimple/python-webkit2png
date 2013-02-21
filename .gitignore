@@ -1,5 +1,6 @@
 *.deb
-*.png
-*.log
-deb_dist/
 *.egg-info/
+*.log
+*.png
+*.tar.gz
+deb_dist/
