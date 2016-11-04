@@ -41,3 +41,4 @@ envdev*
 # Debian
 deb_dist/
 *.deb
+*.tar.gz
