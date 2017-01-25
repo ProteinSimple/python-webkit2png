@@ -1,5 +1,7 @@
 # Compiled files
 *.py[cod]
+.pybuild/
+
 
 # Packages
 *.egg
@@ -39,6 +41,11 @@ envdev*
 *.log
 
 # Debian
-deb_dist/
 *.deb
+*.debhelper
+*.substvars
 *.tar.gz
+deb_dist/
+debhelper-build-stamp
+debian/files
+debian/python-webkit2png/
