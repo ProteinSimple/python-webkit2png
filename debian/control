@@ -1,0 +1,15 @@
+Source: webkit2png
+Maintainer: Mark Kohler <mark.kohler@proteinsimple.com>
+Section: python
+Priority: optional
+Build-Depends: dh-python, python-setuptools (>= 0.6b3), python-all (>= 2.6.6-3), debhelper (>= 9)
+Standards-Version: 3.9.6
+X-Python-Version: >= 2.6
+Homepage: http://github.com/AdamN/python-webkit2png
+
+Package: python-webkit2png
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}, python-qt4, xvfb
+Description: Takes snapshot of webpages using Webkit and Qt4
+ Takes snapshot of webpages using Webkit and Qt4
+
