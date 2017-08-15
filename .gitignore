@@ -47,5 +47,6 @@ envdev*
 *.tar.gz
 deb_dist/
 debhelper-build-stamp
+debian/changelog
 debian/files
 debian/python-webkit2png/
